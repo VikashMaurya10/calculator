@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    .calculator {
+        padding: 20px;
+        background-color: $bg-cal;
+        border-radius: 10px;
+        max-width: 320px;
+        max-height: 450px;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        input {
+            width: 55px;
+            height: 55px;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 0.3rem 0;
+        }
+
+
+        .display {
+            width: 100%;
+            text-align: right;
+            padding: 0 0.8rem;
+            font-size: 2rem;
+        }
+
+        .equal {
+            width: 130px;
+        }
+
+        .oprator {
+            color: $operator-color;
+        }
+    }
+
+}
